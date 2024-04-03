@@ -1,82 +1,71 @@
 {
-  "WBUI2": {
-    "settings": {
-        "OpenButton": 0,
-        "HideIcon": false,
-        "HideIconAfter": 60,
-        "IconURL": "https://i.imgur.com/OZ6xOjY.png",
-        "DisableIconText": false,
-        "IconPosition": 0,
-        "IconTextColor": 0,
-        "OpenOnStart": true,
-        "OpenOnStartOnlyNewPlayers": true,
-        "UpdateInterval": 12
-      },
-    "tabs": [
-      {
-        "tab1": {
-          "layout": 1,
-          "buttontext": "Welcome",
-          "title1": "Thanks for installing WBUI2!",
-          "text1": "This mod is in an early stage.\nYou can expect bugs!\n\n\nThis UI is unedited. Pls contact an Admin.\n\nAre you an Admin?\nPls click on the buttons down below to get to the Wiki page for a setup guide. For Support pls join the discord\n\nYou can find a simple explanation in the settings tab.",
-          "imageurl": "https://i.imgur.com/mGt3cAF.png"
-        }
-      },
-      {
-        "tab2": {
-          "layout": 2,
-          "buttontext": "Settings",
-          "title1": "INI settings:",
-          "text1": "<TextStyle.LightBlue>Ini Header:</>\n\n\\[WBUI2]\n\n\nINI-Options:\n\nJsonURL=\"url\"  -  default: \"https://raw.githubusercontent.com/DC-Modding/WBUI2-Wiki/main/default.json\"\n\nYou have to host the file as \"raw\" somewhere and enter the URL to it wrapped in \" \". You can use github (linked below). After uploading the file you'll find a button called \"raw\". click the button and copy the URL. Or use any other hosting site which offers linking to a raw JSON output.\n\nFor a more detailed instruction checkout the Wiki linked down below.\n\n\nYou can trigger an update of the JSON via console command:\ncheat scriptcommand WBUI2 update",
-          "title2": "JSON settings:",
-          "text2": "OpenButton  -  0/1/2/3/4/5/6, default:0, 0=F1, 1=F2, 2=F3, 3=F4, 4=F5, 5=Delete, 6=Home  -  Determines the button the player needs to press to open the UI.\n\nHideIcon  -  true/false, default: false  -  If true the Icon in the bottom left corner vanishes after some time.\n\nHideIconAfter  -  integer, default: 60  -  Determines after how many seconds the Icon vanishes.\n\nIconURL  -  \"URL\", default: \"https://i.imgur.com/OZ6xOjY.png\"  -  You can upload a custom image somewhere (e.g. imgur, link down below) and it will be used as the Icon in the bottom left.\n\nDisableIconText  -  true/false, default:false  -  If true the text \"F1 for Info\" will not be displayed.\n\nIconPosition  -  0/1/2/3, default:0, 0=Top Left, 1=Top Right, 2=Bottom Right, 3=Bottom Left  -  Set the position of the Icon.\n\nIconTextColor  -  0/1/2/3/4/5/6/7/8, default:0, 0=Light Blue, 1=Red, 2=Green, 3=Blue, 4=Yellow, 5=Orange, 6=Violet, 7=Black, 8=White  -  Sets the color of the \"F1 For Info\" text.\n\nOpenOnStart  -  true/false, default: true  -  If true the UI will open automatically after the player spawned.\n\nOpenOnStartOnlyNewPlayers  -  true/false, default: true  -  If true the UI only opens automatically the first time the player spawns on the server.\n\nUpdateInterval  -  integer, default: 12  -  This value determines the time in hours the mod automatically pulls the JSON from the URL to update settings.\n\nGENERAL INFORMATION:\n\n\nFor the rest of the settings pls checkout the Wiki or the example JSON linked down below.\n\nIn order to pass the JSON-validation you have to use \"*backslash*n\" without a space to generate newlines. although the mod should handle regular newlines just fine.\n\nSpecial characters like \" have to be escaped with a *backslash*\n\nYou can trigger an update of the JSON via console command: \"cheat scriptcommand WBUI2 update\"\n\nBe careful with the file size of the images. The user have to download the images.",
-          "imageurl": "https://i.imgur.com/mGt3cAF.png"
-        }
-      }
-    ],
-    "links": [
-      {
-        "link1": {
-          "text": "Discord",
-          "url": "https://discord.com/invite/K7NyrTV"
-        }
-      },
-      {
-        "link2": {
-          "text": "Wiki",
-          "url": "https://github.com/DC-Modding/WBUI2-Wiki/wiki"
-        }
-      },
-      {
-        "link3": {
-          "text": "CurseForge",
-          "url": "https://www.curseforge.com/ark-survival-ascended/mods/wbui2"
-        }
-      },
-      {
-        "link4": {
-          "text": "JSON-Validator",
-          "url": "https://jsonlint.com"
-        }
-      },
-      {
-        "link5": {
-          "text": "Github",
-          "url": "https://github.com"
-        }
-      },
-      {
-        "link6": {
-          "text": "Imgur",
-          "url": "https://imgur.com"
-        }
-      },
-      {
-        "link7": {
-          "text": "Example JSON",
-          "url": "https://raw.githubusercontent.com/DC-Modding/WBUI2-Wiki/main/example.json"
-        }
-      }
-    ]
-  }
+    "WBUI2": {
+        "settings": {
+            "OpenButton": 0,
+            "HideIcon": true,
+            "HideIconAfter": 30,
+            "IconURL": "https://i.imgur.com/qfuhNFl.jpg",
+            "DisableIconText": true,
+            "IconPosition": 0,
+            "IconTextColor": 0,
+            "OpenOnStart": true,
+            "OpenOnStartOnlyNewPlayers": true,
+            "UpdateInterval": 12
+        },
+        "tabs": [
+            {
+                "tab1": {
+                    "layout": 1,
+                    "buttontext": "Welcome",
+                    "title1": "First of all, have a great time!",
+                    "text1": "\nWe are excited to have you join us on this epic journey through a world filled with danger and adventure. In this world, you will need to gather resources, craft items, and build shelters to survive against the various challenges that you will face.\n\nAs you explore the beautiful and diverse environments of Ark, you will encounter a variety of different creatures, both friendly and hostile. You will need to use your skills and wits to tame, train, and ride these creatures, using them to help you in your journey.\n\n\nOur server is home to a thriving community of players who are always eager to help new players. Be sure to join us in our Discord server to stay up to date on all the latest news and events.\n\n\n<TextStyle.Green>What you can expect from our Community</>\n ● always available, up-to-date servers with the highest quality hardware,\n ● the most interesting mods,\n ● balanced settings, although we also have servers with crazy ones sometimes,\n ● support from admin, community helpers and players,\n ● no toxic behavior,\n ● influence on server development thanks to suggestion channels and regular surveys,\n ● and a lot more.\n\n\nThank you for choosing to play on our Ark Survival server. We hope you have a fun and rewarding experience with us!\n<TextStyle.Green>Rav3nG4mer</>",
+                    "imageurl": "https://i.imgur.com/S1H6Pgo.png"
+                }
+            },
+            {
+                "tab2": {
+                    "layout": 1,
+                    "buttontext": "Important Info",
+                    "title1": "This is a PVPPve server so treat each other with respect.",
+                    "text1": "<TextStyle.Green>Keyboard shortcuts</>\n ● F1 WBUI INFO\n ● F3 VOTE\n ● F4 REPORT\n ● F6 RATE COMMUNITY\n\nConsole players can find <TextStyle.Green>function keys</> by holding <TextStyle.Green>X</> on Xbox or holding <TextStyle.Green>□</> on PS.\n\nFor voting for the server you will receive 200 tokens, more for Supporter Tiers. Remember to use <TextStyle.Green>!Claim</> on <TextStyle.Green>#bot-spam</> discord channel after voting.\n\n<TextStyle.Green>Decay settings:</>\n ● Thatch - 8 Days  \n ● Wood - 16 Days  \n ● Stone - 24 Days  \n ● Metal - 32 Days  \n ● Creatures - 16 Days\n\nTo fully benefit from the possibility of collecting <TextStyle.Green>Tokens</>, each new player should connect in-game character with a website account. After <TextStyle.Green>connecting your accounts</>, tokens received for voting, time spent in the game and those received as part of supporter tiers will be automatically assigned to your account.\n\nIf you have any questions, please visit discord.",
+                    "imageurl": "https://i.imgur.com/S1H6Pgo.png"
+                }
+            },
+            {
+                "tab3": {
+                    "layout": 1,
+                    "buttontext": "Server Rules",
+                    "title1": "These are the rules for this community:",
+                    "text1": "\n<TextStyle.Red>Insta-ban will be given for:</>\n ● Any form of racism, homophobic or trash talk.\n ● Any form of hacking / cheating / exploiting.\n\n<TextStyle.Red>Rules:</>\n ● Keep the game enjoyable for others. Remind your fellow survivors about this.\n ● Help your fellow survivors!\n ● Don't block access to public places with buildings, turrets, or dinos. Public places include: important resource spots (i.e. the vulcano), Spawn points, Obelisks, and Artifact caves. Drops and Explorer notes are NOT protected spaces. If in doubt, it is probably protected.\n ● Clean up after yourself.\n ● No mass land grab.\n ● No Pillar/foundation spamming.\n ● No massive bases (use common sense).\n ● Only 1 Tribe base and 1 Personal outpost is allowed.\n ● No player killing: Players cannot engage in PVP (Player versus Player) combat. This means that players cannot kill or attack other players, their structures, or their tamed creatures.\n ● No griefing: Players should not engage in any behavior that intentionally ruins another player's experience, such as building structures that block access to resources, building structures that damage another player's structures, or trapping other players with their tamed creatures.\n ● No stealing: Players cannot take resources, items, or creatures from other players without their permission.\n ● Respect other players' bases: Players should not enter other players' bases without their permission. Players should also not build their structures too close to another player's base, as this can cause issues with resource spawns or creature spawns.\n ● No excessive breeding: While breeding creatures is allowed, players should not breed excessively to prevent overcrowding of the server.\n ● It is forbidden to beg for help from other players, if someone wants to help you, he will offer it himself.",
+                    "imageurl": "https://i.imgur.com/S1H6Pgo.png"
+                }
+            }
+        ],
+        "links": [
+            {
+                "link1": {
+                    "text": "Discord",
+                    "url": "https://discord.gg/thelostark"
+                }
+            },
+            {
+                "link2": {
+                    "text": "Website in Construction 85% Finish",
+                    "url": ""
+                }
+            },
+            {
+                "link3": {
+                    "text": "Shop Soon",
+                    "url": ""
+                }
+            },
+            {
+                "link4": {
+                    "text": "Discord Link Account ",
+                    "url": "https://discord.com/channels/1217531178958065756/1217531879234732115/1217988603553120307"
+                }
+            }
+        ]
+    }
 }
