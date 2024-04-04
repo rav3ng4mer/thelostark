@@ -4,7 +4,7 @@
             "OpenButton": 0,
             "HideIcon": true,
             "HideIconAfter": 30,
-            "IconURL": "https://i.imgur.com/qfuhNFl.jpg",
+            "IconURL": "https://i.imgur.com/LeqjOBb.png",
             "DisableIconText": true,
             "IconPosition": 0,
             "IconTextColor": 0,
@@ -27,7 +27,7 @@
                     "layout": 1,
                     "buttontext": "Important Info",
                     "title1": "This is a PVPPve server so treat each other with respect.",
-                    "text1": "<TextStyle.Green>Keyboard shortcuts</>\n ● F1 WBUI INFO\n ● F3 VOTE\n ● F4 REPORT\n ● F6 RATE COMMUNITY\n\nConsole players can find <TextStyle.Green>function keys</> by holding <TextStyle.Green>X</> on Xbox or holding <TextStyle.Green>□</> on PS.\n\nFor voting for the server you will receive 200 tokens, more for Supporter Tiers. Remember to use <TextStyle.Green>!Claim</> on <TextStyle.Green>#bot-spam</> discord channel after voting.\n\n<TextStyle.Green>Decay settings:</>\n ● Thatch - 8 Days  \n ● Wood - 16 Days  \n ● Stone - 24 Days  \n ● Metal - 32 Days  \n ● Creatures - 16 Days\n\nTo fully benefit from the possibility of collecting <TextStyle.Green>Tokens</>, each new player should connect in-game character with a website account. After <TextStyle.Green>connecting your accounts</>, tokens received for voting, time spent in the game and those received as part of supporter tiers will be automatically assigned to your account.\n\nIf you have any questions, please visit discord.",
+                    "text1": "<TextStyle.Green>Keyboard shortcuts</>\n ● F1 WBUI INFO\n ● F3 VOTE\n ● F4 REPORT\n ● F6 RATE COMMUNITY\n\nConsole players can find <TextStyle.Green>function keys</> by holding <TextStyle.Green>X</> on Xbox or holding <TextStyle.Green>□</> on PS.\n\nFor voting for the server you will receive 200 tokens, more for Supporter Tiers. Remember to use <TextStyle.Green>!Claim</> on <TextStyle.Green>#bot-spam</> discord channel after voting.\n\n<TextStyle.Green>Decay settings:</>\n ● Thatch - 8 Days  \n ● Wood - 16 Days  \n ● Stone - 24 Days  \n ● Metal - 32 Days  \n ● Creatures - 16 Days\n\nTo fully benefit from the possibility of collecting <TextStyle.Green>Points</>, each new player should connect in-game character with a discord account. After <TextStyle.Green>connecting your account</>, After connection every 12 you can collect your points from discord, you can buy dinos or items from discord shop if you need more points you can buy it from our website after you get the point and buy anything from our discord shop you will receive what you bought in your inventory.\n\nIf you have any questions, please visit discord.",
                     "imageurl": "https://i.imgur.com/S1H6Pgo.png"
                 }
             },
